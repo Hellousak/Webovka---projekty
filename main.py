@@ -11,3 +11,6 @@ with col2:
     st.title("Helena S")
     content = """Čus, tohle je moje první webovka"""
     st.info(content)
+
+content2 = """Níže naleznete aplikace, které jsem sestrojila v Pythonu. Neváhejte mě kontaktovat"""
+st.write(content2)
