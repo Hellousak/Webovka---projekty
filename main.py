@@ -8,7 +8,7 @@ col1, col2 = st.columns(2)
 with col1:
     st.image("images/photo.JPG")
 try:
-    with open("images/photo.JPG", "rb") as f:
+    with open("images/photo.jpeg", "rb") as f:
         st.image(f.read())
 except FileNotFoundError:
     st.error("Soubor nebyl nalezen!")
